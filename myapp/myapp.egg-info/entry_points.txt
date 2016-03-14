@@ -1,0 +1,5 @@
+
+    [console_scripts]
+    interactive_debug_prompt = grokcore.startup.startup:interactive_debug_prompt
+    [paste.app_factory]
+    main = grokcore.startup:application_factory

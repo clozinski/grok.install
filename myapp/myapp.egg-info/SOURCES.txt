@@ -1,0 +1,14 @@
+setup.py
+./app/__init__.py
+./app/app.py
+./app/resource.py
+./app/tests/__init__.py
+./app/tests/test_app.py
+./app/tests/tests.py
+myapp.egg-info/PKG-INFO
+myapp.egg-info/SOURCES.txt
+myapp.egg-info/dependency_links.txt
+myapp.egg-info/entry_points.txt
+myapp.egg-info/not-zip-safe
+myapp.egg-info/requires.txt
+myapp.egg-info/top_level.txt

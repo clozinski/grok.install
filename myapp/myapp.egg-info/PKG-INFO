@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: myapp
+Version: 0.1
+Summary: Simple Part of the Install package. 
+
+Home-page: https://github.com/clozinski/grok.install
+Author: Grok Team
+Author-email: grok-dev@zope.org
+License: ZPL
+Description: UNKNOWN
+Platform: UNKNOWN

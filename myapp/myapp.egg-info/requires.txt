@@ -1,0 +1,5 @@
+setuptools
+grok
+grokui.admin
+grokcore.startup
+grokcore.message
