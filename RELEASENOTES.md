@@ -2,7 +2,7 @@ grok.install is a cousin of grokproject.  grok.install just does a very simple i
 
 Really grok.install is a precursor to grokproject.  grok.install is a huge step towards upgrading grokproject. If anyone wants to I invite them to now upgrade grokproject.
 
-grok.install evolved from grok.  You can actually download a current version of grok and it runs and compiles in Python 3 and 2. But grok and grok.install are on very different trajectories, so I felt no need to keep one as a fork of the other.  
+grok.install evolved from grok.  You can actually download a current version of grok and it runs and compiles in Python 3 and 2. But grok and grok.install are on very different trajectories, I do not see them merging,  so I felt no need to keep one as a fork of the other.  
 
 
 I can't say that grok.install is perfect.  But it installs  for me, and I know of no known problems.  Moreover if you have a problem, other than on windows, I am happy to fix it quickly. 
