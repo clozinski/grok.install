@@ -1,4 +1,4 @@
-grok.install is a cousin of grokproject.  grok.install just does a very simple installation.  To change passwords, domain names, and ip addresses you have to edit finfiles.  grokproject asks lots of questions simplifying the process for the end user, but making maintenance much harder. 
+grok.install is a cousin of grokproject.  grok.install just does a very simple installation.  To change passwords, domain names, and ip addresses you have to edit files.  grokproject asks lots of questions simplifying the process for the end user, but making maintenance much harder. 
 
 Really grok.install is a precursor to grokproject.  grok.install is a huge step towards upgrading grokproject. If anyone wants to I invite them to now upgrade grokproject.
 
