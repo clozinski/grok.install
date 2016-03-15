@@ -5,7 +5,7 @@ grok.install  makes it easy to install grok 1.14.1.
 grok.install offers two sample applications.  myapp is a simple Hello  World applicatin.  It is a great way to get started.  There is also a develop egg, grokwiki, which will helps you downt he path of building eggs. 
 
 You might want to jump directiy to the 
-install instructions. https://raw.githubusercontent.com/clozinski/grok.install/master/INSTALL.md
+install instructions. https://github.com/clozinski/grok.install/blob/master/INSTALL.md
 
 
 What is grok?
