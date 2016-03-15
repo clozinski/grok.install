@@ -1,9 +1,11 @@
 <html metal:define-macro="main">
   <head>
+      <!--
     <link
       rel="stylesheet"
       tal:attributes="href static/wiki.css"
       type="text/css"/>
+     -->
   </head>
 
   <body

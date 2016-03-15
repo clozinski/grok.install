@@ -58,8 +58,8 @@ filter-with = translogger
 
 [server:main]
 use = egg:Paste#http
-host = privacv.com
-port = 8040
+host = 127.0.0.1
+port = 8080
 
 [DEFAULT]
 # set the name of the zope.conf file
