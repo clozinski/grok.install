@@ -5,7 +5,7 @@ Really grok.install is a precursur to grokproject.  grok.install is a huge step 
 I can't say that grok.install is perfect.  But it installs  for me, and I know of no known problems.  Moreover if you have a problem, other than on windows, I am happy to fix it quickly. 
 
 Two things I would like to do.  Configure fanstatic, so that it server grokwiki/iki.css
-and allow the gui to add an app. 
+and make it compile under Python 3.  In general grok works under PYthon 3, but just not for me.  
 
 grok.intall egg
 ===============
