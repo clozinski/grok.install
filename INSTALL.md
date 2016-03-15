@@ -85,6 +85,7 @@ When it is running it will display a URL.  Copy that URL into your browser
 to view the running site.  
 
 UserName:grok
+
 Passowrd:grok
 
 If you now connect to port 8080 and log in with username 'grok',
