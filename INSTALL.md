@@ -61,13 +61,13 @@ contents::
     [buildout]
     eggs-directory = /home/bruno/buildout-eggs
 
-#Domanin Name and IP address
+##Domanin Name and IP address
 	
 Don't forget to change the domain name and 
 port in etc/debug.ini and etc/deploy.ini
 Then rerun bin/buildout
 
-#Running the tests
+##Running the tests
 
 Grok's tests are easily run by executing the test runner that's
 installed in the ``bin`` directory::
@@ -81,22 +81,22 @@ following command:
 
     $ bin/paster serve parts/etc/deploy.ini
 
+When it is running it will display a URL.  Copy that URL into your browser
+to view the running site.  
+
+UserName:grok
+Passowrd:grok
+
 If you now connect to port 8080 and log in with username 'grok',
 password 'grok', you should be able to add the grok-based applications
 app and grokwiki  from the home page.
 
-#Chaning the Password
-
-You can run bin/zpasswd to create a new password file.  this will create 
-some zdml which defines a new pricinpal.  Copy that zcmo into etc/site.zcml.in and run bin/buildout again. There is already one principal in site.zcml.in.  You probably want to delete the default grok principal and replace it with the new 
-one you generated. 
-
-#Running a Production Server
+##Running a Production Server
 
 bin/daemon will starta a production server.  I believe it calls
     bin/paster serve parts/etc/deploy.ini
 
-#The Directory Structure
+##The Directory Structure
 
 You can read more about the directory structure of a buildout here:
 http://www.buildout.org/en/latest/docs/dirstruct.html
