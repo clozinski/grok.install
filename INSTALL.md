@@ -100,3 +100,10 @@ http://www.buildout.org/en/latest/docs/dirstruct.html
 
 myapp contains the app.
 grokwiki contains the grokwiki egg.
+
+And of course your first error will be that it cannot find favicon.ico.  
+The esiest way to fix this is put grok behind a webserver, that sends 
+that particular erquest to a file.
+
+I invite you to join the grok-dev mailing list at: 
+https://mail.zope.org/mailman/listinfo/grok-dev 
