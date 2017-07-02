@@ -28,19 +28,11 @@ I like to install in /usr/local
 
 First get the grok.install from github
 
-      $wget --no-check-certificate https://github.com/clozinski/grok.install/archive/master.zip
-
-Unzip it. 
-
-      $unzip master.zip
-
-Move it to a better location.
-
-    $mv grok.install-master grok
+       $git clone https://github.com/clozinski/grok.install
 
 Enter the directory.
 
-   $ cd grok
+   $ cd grok.install
 
 Bootstrap the buildout environment:
 
@@ -77,8 +69,12 @@ installed in the ``bin`` directory::
 ##Running the demo applications
 
 You can start Zope with the demo applications installed with the
-following command:
+following commands:
 
+If you want to run the debugger:
+    $ bin/paster serve parts/etc/debug.ini
+
+If you want to run it as a daemon:
     $ bin/paster serve parts/etc/deploy.ini
 
 When it is running it will display a URL.  Copy that URL into your browser
