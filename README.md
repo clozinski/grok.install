@@ -2,7 +2,7 @@ grok.install 1.14.1.1
 ===================
 grok.install  makes it easy to install grok 1.14.1. 
 
-Thi is for Python2.7.  Does not work with Python 3 ecause of an issue with Groktoolkit. 
+This is for Python2.7.  Does not yet work with Python 3 because of an issue with groktoolkit. 
 https://github.com/zopefoundation/groktoolkit/issues/4
 
 I hope to fix this at the Phoenix sprint in September 2017
