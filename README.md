@@ -2,6 +2,11 @@ grok.install 1.14.1.1
 ===================
 grok.install  makes it easy to install grok 1.14.1. 
 
+Thi is for Python2.7.  Does not work with Python 3 ecause of an issue with Groktoolkit. 
+https://github.com/zopefoundation/groktoolkit/issues/4
+
+I hope to fix this at the Phoenix sprint in September 2017
+
 grok.install offers two sample applications.  myapp is a simple Hello  World applicatin.  It is a great way to get started.  There is also a develop egg, grokwiki, which will helps you downt he path of building eggs. 
 
 You might want to jump directiy to the 
